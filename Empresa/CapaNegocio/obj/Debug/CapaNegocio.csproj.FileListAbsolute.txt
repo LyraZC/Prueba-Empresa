@@ -1,0 +1,11 @@
+D:\Archivos de Programa\Leo\Prueba de Pasantia\Empresa\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\Archivos de Programa\Leo\Prueba de Pasantia\Empresa\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\Archivos de Programa\Leo\Prueba de Pasantia\Empresa\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\Archivos de Programa\Leo\Prueba de Pasantia\Empresa\CapaNegocio\bin\Debug\CapaEntidades.dll
+D:\Archivos de Programa\Leo\Prueba de Pasantia\Empresa\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\Archivos de Programa\Leo\Prueba de Pasantia\Empresa\CapaNegocio\bin\Debug\CapaEntidades.pdb
+D:\Archivos de Programa\Leo\Prueba de Pasantia\Empresa\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\Archivos de Programa\Leo\Prueba de Pasantia\Empresa\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\Archivos de Programa\Leo\Prueba de Pasantia\Empresa\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\Archivos de Programa\Leo\Prueba de Pasantia\Empresa\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\Archivos de Programa\Leo\Prueba de Pasantia\Empresa\CapaNegocio\obj\Debug\CapaNegocio.pdb
