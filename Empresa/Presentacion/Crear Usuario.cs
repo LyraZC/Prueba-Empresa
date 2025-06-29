@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 using CapaNegocio;
 using CapaEntidades;
+using System.Text.RegularExpressions;
 
 namespace Presentacion
 {
@@ -27,6 +28,23 @@ namespace Presentacion
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
+            string correo = txtCorreo.Text.Trim();
+            string telefono = txtTelefono.Text.Trim();
+
+            // Validar correo con estructura nombre@dominio.com
+            if (!Regex.IsMatch(correo, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            {
+                MessageBox.Show("El correo no tiene un formato válido (ej: juan@gmail.com).");
+                return;
+            }
+
+            // Validar teléfono con estructura 0000-0000
+            if (!Regex.IsMatch(telefono, @"^\d{4}-\d{4}$"))
+            {
+                MessageBox.Show("El teléfono debe tener el formato 0000-0000.");
+                return;
+            }
+
             CN_Usuario usuario = new CN_Usuario();
 
             Usuario nuevo = new Usuario()
