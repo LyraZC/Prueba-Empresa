@@ -227,6 +227,7 @@
             this.Controls.Add(this.iconPictureBox1);
             this.Name = "Crear_Usuario";
             this.Text = "Crear_Usuario";
+            this.Load += new System.EventHandler(this.Crear_Usuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

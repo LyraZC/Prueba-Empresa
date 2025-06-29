@@ -39,7 +39,7 @@ namespace Presentacion
                 .Where(o => o.idNombreProducto == _idProducto)
                 .ToList();
 
-            // Asignar al ComboBox
+            // Asignar valores al ComboBox
             cbOpciones.DataSource = opcionesDelProducto;
             cbOpciones.DisplayMember = "Nombre";
             cbOpciones.ValueMember = "idOpcion";
@@ -68,7 +68,7 @@ namespace Presentacion
                 return;
             }
 
-            CN_Opcion datos = new CN_Opcion(); // <- asegurate de tener esto
+            CN_Opcion datos = new CN_Opcion(); 
 
             // Validar duplicado
             var existentes = datos.Listar()
@@ -107,7 +107,7 @@ namespace Presentacion
             {
                 string nuevoNombre = txtEditar.Text.Trim();
 
-                // Validación básica
+                
                 if (string.IsNullOrWhiteSpace(nuevoNombre))
                 {
                     MessageBox.Show("Debe ingresar un nombre válido para la opción.", "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);

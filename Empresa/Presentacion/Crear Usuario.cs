@@ -77,5 +77,10 @@ namespace Presentacion
             txtTelefono.Clear();
 
         }
+
+        private void Crear_Usuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

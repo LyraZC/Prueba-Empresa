@@ -86,7 +86,7 @@ namespace CapaDatos
                     cmd.Parameters.AddWithValue("@Apellido", usuario.Apellido);
                     cmd.Parameters.AddWithValue("@Correo", usuario.Correo);
                     cmd.Parameters.AddWithValue("@Telefono", usuario.Telefono);
-                    //cmd.Parameters.AddWithValue("@Estado", usuario.Estado);
+                    
 
                     conexion.Open();
 

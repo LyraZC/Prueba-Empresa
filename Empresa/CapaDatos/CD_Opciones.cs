@@ -35,7 +35,7 @@ namespace CapaDatos
                                 idOpcion = Convert.ToInt32(dr["ID_OPCIONES"]),
                                 Nombre = dr["NOMBRE_OPCION"].ToString(),
                                 idNombreProducto = Convert.ToInt32(dr["ID_PRODUCTO_OPCION"]),
-                                //NombreProoducto = Convert.ToInt32(dr["NombreProducto"]),
+                                
                                 
 
 
