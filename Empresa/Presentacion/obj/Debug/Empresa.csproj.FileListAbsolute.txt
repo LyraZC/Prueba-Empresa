@@ -40,3 +40,4 @@ D:\Archivos de Programa\Leo\Proyecto Pasantia\Prueba-Empresa\Empresa\Presentacio
 D:\Archivos de Programa\Leo\Proyecto Pasantia\Prueba-Empresa\Empresa\Presentacion\obj\Debug\Empresa.csproj.CopyComplete
 D:\Archivos de Programa\Leo\Proyecto Pasantia\Prueba-Empresa\Empresa\Presentacion\obj\Debug\Presentacion.exe
 D:\Archivos de Programa\Leo\Proyecto Pasantia\Prueba-Empresa\Empresa\Presentacion\obj\Debug\Presentacion.pdb
+D:\Archivos de Programa\Leo\Proyecto Pasantia\Prueba-Empresa\Empresa\Presentacion\obj\Debug\Presentacion.Opciones_Producto.resources

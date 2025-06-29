@@ -11,7 +11,7 @@ namespace CapaNegocio
 {
     public class CN_Producto
     {
-        /*Metodo para utilizar la lista de usuarios*/
+        /*Metodo para utilizar la lista de Productos*/
         private CD_Producto objcd_producto = new CD_Producto();
 
         public List<Producto> Listar()

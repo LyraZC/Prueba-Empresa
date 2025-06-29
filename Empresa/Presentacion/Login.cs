@@ -25,11 +25,11 @@ namespace Presentacion
             /*Utilizando el metodo comparamos los valores del textbox para ver si coinciden con alguno en la lista*/
 
             Usuario usuario = new CN_Usuario().Listar().Where(u => u.NombreUsuario == txtCorreo.Text && u.Contraseña == txtContraseña.Text).FirstOrDefault();
-            //List<Usuario> Prueba = new CN_Usuario().Listar();
+            
 
             if(usuario != null)
             {
-                Inicio form = new Inicio();
+                Inicio form = new Inicio(usuario);
                 form.Show();
                 this.Hide();
 
@@ -63,6 +63,11 @@ namespace Presentacion
             this.Hide();
 
             form.FormClosing += frm_closing;
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
