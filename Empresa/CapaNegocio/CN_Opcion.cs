@@ -19,5 +19,21 @@ namespace CapaNegocio
             return objcd_opcion.Listar();
         }
 
+        public Opciones Crear(string nombre, int idProducto)
+        {
+            Opciones nueva = new Opciones
+            {
+                Nombre = nombre,
+                idNombreProducto = idProducto
+            };
+
+            return objcd_opcion.Crear(nueva); 
+        }
+
+        public Opciones Editar(int idOpcion, string nuevoNombre)
+        {
+            return objcd_opcion.Editar(idOpcion, nuevoNombre);
+        }
+
     }
 }
